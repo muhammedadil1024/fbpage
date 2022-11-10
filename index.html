@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <link rel="stylesheet" href="css/fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or phone</label></td>
+                            <td><label class="login-label space-inpts">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input class="space-inpts" type="password"></td>
+                            <td><input class="sub-btn space-inpts" type="submit" value="Log in"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten space-inpts " href="forgotten.html">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para1">Facebook helps you connect and share with the <br> people in your life</p>
+                <img src="image/fbLeftImg.png" alt="left img cnct people">
+            </div>
+            <div class="right-section">
+                <h1 class="right-head">Create an account</h1>
+                <p class="para-r">It's quick and easy.</p>
+                <form action="" id="signup-form">
+                    <table class="signup-controls">
+                        <tr>
+                            <td><input name="fname" class="signup-inp" type="text" placeholder="First name"></td>
+                            <td><input name="sname" class="signup-surnm" type="text" placeholder="Surname"></td>
+
+                        </tr>
+                        <tr>
+                            <td><input name="emailAddress" class="signup-emailandpass" type="email" placeholder="Mobile number or email address"></td>
+                        </tr>
+                        <tr>
+                            <td><input name="password" class="signup-emailandpass" type="password" placeholder="New password"></td>
+                        </tr>
+                    </table>
+                </form>
+                <h4 class="dob">Date  of birth </h4>
+                <div class="d-m-y">
+                    <select class="select-day" name="day" id="">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select class="select-month" name="month" id="">
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    <select class="select-year" name="year" id="">
+                        <option>Year</option>
+                        <option>1980</option>
+                        <option>1981</option>
+                        <option>1982</option>
+                        <option>1983</option>
+                        <option>1984</option>
+                        <option>1985</option>
+                        <option>1986</option>
+                        <option>1987</option>
+                        <option>1988</option>
+                        <option>1989</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                    <a href="#" title="click to go"> 
+                        <img class="qm" src="image/fb-questionmark1.png" alt="QuestionMark">
+                    </a>
+                </div>
+                <h4 class="gen">Gender</h4>
+                <div class="f-m-c">
+                    <input type="radio" name="gender">
+                    <label for="">Female</label>
+                    <input type="radio" name="gender">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="">Custom</label>
+                    <a href="#" title="click to go"> 
+                        <img class="qm" src="image/fb-questionmark1.png" alt="QuestionMark">
+                    </a>
+                </div>
+                <div>
+                    <p class="terms-conditions">By clicking Sign Up, you agree to our <a class="terms-link" href="#">Terms,
+                         Data Policy </a> <br>and <a class="terms-link" href="#">Cookie Policy.</a> You may
+                         receive SMS notifications from <br> us and can opt out at any time</p>
+                </div>
+                <div class="signup">
+                    <a href="signup.html"><input class="signup-btn" type="submit" value="Sign Up"></a>
+                </div>
+                <div class="last-para">
+                    <p class="celeb-page"><a style="text-decoration: none;" href="#">Create a page </a> for a celebrity, brand or business</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="upper-footer">
+                <a class="english" href="#">English (UK)</a>&nbsp;
+                <a class="terms-link" href="#">മലയാളം</a>&nbsp;
+                <a class="terms-link"href="#">தமிழ்</a>&nbsp;
+                <a class="terms-link"href="#">ಕನ್ನಡ</a>&nbsp;
+                <a class="terms-link"href="#">हिन्दी</a>&nbsp;
+                <a class="terms-link"href="#">اردو</a>&nbsp;
+                <a class="terms-link"href="#">বাংলা</a>&nbsp;
+                <a class="terms-link"href="#">తెలుగు</a>&nbsp;
+                <a class="terms-link"href="#">Español</a>&nbsp;
+                <a class="terms-link"href="#">Português (Brasil)</a>&nbsp;
+                <a class="terms-link"href="#">Français (France)</a>&nbsp;  
+            </div>
+            <hr style="margin-left: 270px; width: 1100px;">
+            <div class="lower-footer">
+                <a class="terms-link" href="#">Sign Up</a>&nbsp;
+                <a class="terms-link" href="#">Login</a>&nbsp;
+                <a class="my-name" href="#">Designed by <i> Muhammed Adil </i></a>
+            </div>
+        </div>
+    </div>
+    <script src="js/Jquery-6.3.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
